@@ -1,0 +1,22 @@
+
+div{
+	height:100px;
+	width:100px;
+	background-color:aqua;
+	border:2px solid black;
+	display:inline-block;
+	flex-direction:row-reverse;
+}
+body{
+	background-image:url("C:\Users\dell\OneDrive - Amity University\Desktop\Srijita html");
+	background-size:cover;
+}
+#box1{
+	position:static;
+	background-image:url("C:\Users\dell\OneDrive - Amity University\Desktop\Srijita html");
+	background-size:cover;
+}
+#box2{
+	position:relative
+	position-top:20px;
+}

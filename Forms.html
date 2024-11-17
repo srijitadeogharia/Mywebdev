@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Student Suggestion Portal</title>
+    <style>
+	
+        body {
+            background-image:C:\Users\dell\OneDrive - Amity University\Pictures\Saved Pictures\student portal.PNGy
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 50px auto;
+            width: 50%;
+            border-radius: 10px;
+        }
+        
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body  bgcolor="pink">
+    <div class="container">
+        <h2><u><center>Student Suggestion Portal</center></u></h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input placeholder ="Username" type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input placeholder="Enter e mail" type="email" id="email" name="email" required><br><br>
+            <label for="suggestion">Suggestion:</label><br>
+            <textarea placeholder="Give any suggestion of you have(150 words)" id="suggestion" name="suggestion" rows="4" cols="50" required></textarea><br><br>
+		
+            <button type="submit">Submit</button>
+        </form>
+        <h3>Previous Suggestions</h3>
+        <table border=n cellpading=0 cellspacing=10px>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Suggestion</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+                <td>More extracurricular activities.</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>jane@example.com</td>
+                <td>Better cafeteria food.</td>
+            </tr>
+        </table>
+        <h3>Suggestions Categories</h3>
+        <ul type="disk">
+            <li><a href="https://academicwebpages.com/">Academics</a></li>
+			<li><a href="https://www.awwwards.com/websites/events/">Events</a></li>
+			<li><a href="https://hpbgirlscollege.edu.in/sports-facilities/">Facilities </a></li>
+			<li><a href="http://www.furkatingcollege.edu.in/sports-facilities/">Ai chat boot</a></li>
+        </ul>
+    </div>
+</body>
+</html>
